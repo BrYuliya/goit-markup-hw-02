@@ -16,7 +16,6 @@ body {
     color: var(--body-font-color);
 }
 
-
 .nav-link {
     background-color: var(--main-background-color);
     font-size: 16px;
@@ -31,18 +30,17 @@ body {
     color: var(--accent-color);
 }
 
-.section-header {
+.section-main {
     color: var(--second-font-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: var(--second-backgound-color);
 }
 
 .why-we {
     color: transparent;
-    background-color: var(--second-backgound-color);
 }
 
 .nav ul {
@@ -117,6 +115,14 @@ body {
     color: var(--button-font-color);
     background-color: var(--button-color);
     font-family: 'Roboto', sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--light-font-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--light-font-color);
 }
 
 .button-exception {
@@ -127,11 +133,9 @@ body {
     color: var(--main-background-color);
     background-color: var(--accent-color);
     font-family: 'Roboto', sans-serif;
-}
-
-.button:hover,
-.button:focus {
-    background-color: var(--accent-color);
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid;
 }
 
 .button-exception:hover,
@@ -232,21 +236,14 @@ body {
     color: var(--button-color);
 }
 
-.portfolio-buttons {
-    background-color: var(--second-backgound-color);
-}
-.portfolio-buttons h1 {
+.portfolio h1 {
     color: transparent;
 }
-.portfolio-buttons ul {
+.portfolio ul {
     list-style: none;
     font-family: 'Roboto', sans-serif;
 }
 
-
-.portfolio-examples {
-    background-color: var(--second-backgound-color);
-}
 .portfolio-examples ul {
     list-style: none;
 }
