@@ -23,6 +23,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -45,10 +46,12 @@ body {
 
 .nav ul {
     list-style: none;
+    letter-spacing: 0.02em;
 }
 
 .nav-contacts ul {
     list-style: none;
+    letter-spacing: 0.02em;
 }
 
 .logotype {
@@ -64,6 +67,7 @@ body {
 
 .logo-part {
     color: var(--second-font-color);
+    letter-spacing: 0.03em;
 }
 
 .contacts {
@@ -82,8 +86,8 @@ body {
 .hero-text {
     color: var(--main-background-color);
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-background {
@@ -97,12 +101,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    letter-spacing: 0.04;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     border: 1px solid var(--button-font-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.04em;
 }
 
 .button-service:hover,
@@ -121,31 +125,17 @@ body {
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--light-font-color);
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
 .button:focus {
-    background-color: var(--light-font-color);
-}
-
-.button-exception {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--main-background-color);
     background-color: var(--accent-color);
-    font-family: 'Roboto', sans-serif;
-    padding: 12px 24px;
+    color: var(--main-background-color);
     border-radius: 4px;
-    border: 1px solid var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-exception:hover,
-.button-exception:focus {
-    background-color: var(--button-font-color);
-}
 
 .offers h3 {
     color: var(--second-font-color);
@@ -173,9 +163,6 @@ body {
 
 
 .section-header li {
-    box-sizing: border-box;
-    background-blend-mode: soft-light, normal;
-    border: 1px solid var(--light-font-color);
     list-style: none;
 }
 
@@ -211,8 +198,6 @@ body {
 }
 
 .footer p {
-    left: 156px;
-    top: 2418px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -298,4 +283,5 @@ body {
 
 .part-color {
     color: var(--button-color);
+    letter-spacing: 0.03em;
 }
